@@ -1,6 +1,6 @@
 import React from "react";
 import "./City.css";
-import cityData from "./CityData";
+import DataCity from "./CityData";
 function City(props) {
   return (
     <div className="city">

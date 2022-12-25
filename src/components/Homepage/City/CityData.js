@@ -1,4 +1,4 @@
-export const cityData = [
+export const dataCity = [
   {
     name: "Dublin",
     subText: "123 properties",

@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+/* .navbar {
+  background-color: #003580;
+  color: white;
+} */
+
+/* .navbar-nav .nav-link.active {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.active {
+  border: 1px white solid;
+  border-radius: 50px;
+  color: white;
+  padding: 5px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  padding: 20px;
+} */
+.active {
+  border: 1px white solid;
+  border-radius: 50px;
+  color: white;
+  padding: 5px;
+}
+.nav-item {
+  padding: 20px 30px;
+  font-size: 16px;
+  color: aliceblue;
+}
+.navbar-item {
+  display: inline-block;
+  flex-direction: row;
+}

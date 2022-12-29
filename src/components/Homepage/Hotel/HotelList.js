@@ -11,7 +11,7 @@ const HotelList = (props) => {
           {props.name}
         </Link>
         <span className="hotelCity">{props.city} </span>
-        <span className="hotelPrice">{props.price} </span>
+        <span className="hotelPrice">Starting from ${props.price} </span>
         <div className="hotelRating">
           <button>{props.rate} </button>
           <span>{props.type}</span>

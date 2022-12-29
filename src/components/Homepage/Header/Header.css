@@ -5,12 +5,13 @@
   justify-content: center;
   position: relative;
   text-align: left;
+  padding-top: 30px;
 }
 
 .headerContainer {
   width: 100%;
   max-width: 1024px;
-  margin: 0px 0px 100px 0px;
+  margin-bottom: 100px;
 }
 .headerDesc {
   margin: 20px 0px;

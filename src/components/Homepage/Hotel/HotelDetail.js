@@ -68,7 +68,7 @@ const HotelDetail = () => {
           <span>Elton St 125 New york</span>
         </div>
         <span className="hotelDistance">
-          Excellent location – 500m from center
+          Excellent location - 500m from center
         </span>
         <span className="hotelPriceHighlight">
           Book a stay over $114 at this property and get a free airport taxi
@@ -97,7 +97,7 @@ const HotelDetail = () => {
               offered, as well as an electric tea pot and a coffee machine.
               Popular points of interest near the apartment include Cloth Hall,
               Main Market Square and Town Hall Tower. The nearest airport is
-              John Paul II International Kraków–Balice, 16.1 km from Tower
+              John Paul II International Kraków - Balice, 16.1 km from Tower
               Street Apartments, and the property offers a paid airport shuttle
               service.
             </p>

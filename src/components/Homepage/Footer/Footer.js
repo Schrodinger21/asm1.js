@@ -6,9 +6,6 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <div className="fLists">
-        {/* <ul className="fList">
-          <li className="fListItem"></li>
-        </ul> */}
         <ul className="fList">
           <li className="fListItem">Countries</li>
           <li className="fListItem">Regions</li>

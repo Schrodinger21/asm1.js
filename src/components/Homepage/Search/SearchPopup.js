@@ -1,9 +1,5 @@
 import React from "react";
 import "./SearchPopup.css";
-import { useLocation } from "react-router-dom";
-import { useState } from "react";
-import { format } from "date-fns";
-import { DateRange } from "react-date-range";
 import SearchList from "../Search/Search";
 import { searchListData } from "../Search/SearchData";
 
@@ -20,11 +16,6 @@ const SearchPopup = () => {
           <div className="lsItem">
             <label>Check-in Date</label>
             <span>dd/mm/yyyy</span>
-            {/* <DateRange
-                  onChange={(item) => setDate([item.selection])}
-                  minDate={new Date()}
-                  ranges={date}
-                /> */}
           </div>
           <div className="lsItem">
             <label>Options</label>
@@ -81,6 +72,7 @@ const SearchPopup = () => {
               rate={item.rate}
               type={item.type}
               distance={item.distance}
+              description={item.description}
               tag={item.tag}
               free_cancel={item.free_cancel}
               rate_text={item.rate_text}

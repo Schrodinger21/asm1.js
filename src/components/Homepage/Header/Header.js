@@ -33,6 +33,8 @@ const Header = () => {
       };
     });
   };
+
+  // Chuyển trang
   const repalceLinkHandler = () => {
     window.location.replace("/Search");
   };
@@ -55,6 +57,7 @@ const Header = () => {
               className="headerSearchInput"
             ></input>
           </div>
+          {/* Phần nâng cao */}
           <div className="headerSearchItem">
             <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
             <span

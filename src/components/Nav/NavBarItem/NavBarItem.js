@@ -1,24 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./NavBarItem.css";
 import { navBarData } from "./NavBarData";
 
 const NavBarItem = () => {
-  const [navbar, setNavBar] = useState(navBarData);
-  const navArr = navbar.map((item) => {
-    return item.type === item
-      ? {
-          ...item,
-          active: true,
-        }
-      : { ...item, active: false };
-  });
-
-  // setNavBar(navArr);
-
-  console.log(navArr);
   const navBarItem = navBarData.map((item) => {
-    const isActive = item.active ? "active" : "";
+    // Nếu item.active = true thì border được thêm vào.
+    const isActive = item.active ? "active" : " ";
     const icon = `fa ${item.icon}`;
 
     return (

@@ -28,11 +28,11 @@
 }
 
 .siDistance {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .siTaxiOp {
-  font-size: 12px;
+  font-size: 14px;
   background-color: #008009;
   color: white;
   width: max-content;
@@ -41,16 +41,16 @@
 }
 
 .siSubtitle {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .siFeatures {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .siCancelOp {
-  font-size: 12px;
+  font-size: 14px;
   color: #008009;
   font-weight: bold;
 }
@@ -95,7 +95,7 @@
 }
 
 .siTaxOp {
-  font-size: 12px;
+  font-size: 14px;
   color: gray;
 }
 
